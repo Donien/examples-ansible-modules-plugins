@@ -2,7 +2,7 @@
 
 ## Download repository
 ```
-git clone 
+git clone https://github.com/DanOPT/examples-ansible-modules-plugins.git
 cd examples-ansible-modules
 ```
 
