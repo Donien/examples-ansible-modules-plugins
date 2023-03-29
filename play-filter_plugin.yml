@@ -1,0 +1,10 @@
+---
+- name: Example Playbook for custom filter plugins
+  hosts: localhost
+  tasks:
+    - name: Example of hello_world() filter plugin
+      debug:
+        msg: "{{ 'Hello' | hello_world() }}"
+    - name: Example of a failed hello_world() filter plugin
+      debug:
+        msg: "{{ 2 | second_power() }}"
