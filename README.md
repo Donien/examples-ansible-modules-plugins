@@ -1,6 +1,6 @@
 # Ansible module examples
 
-** How to test examples**
+**How to test examples**
 
 Download git repository:
 ```
