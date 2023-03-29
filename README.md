@@ -1,9 +1,17 @@
 # Ansible module examples
 
-## Download repository
+** How to test examples**
+
+Download git repository:
 ```
 git clone https://github.com/DanOPT/examples-ansible-modules-plugins.git
 cd examples-ansible-modules
+```
+
+Start Playbooks:
+```
+ansible-playbook play-module.yml
+ansible-playbook play-filter_plugin.yml
 ```
 
 ## Filter Plugins
